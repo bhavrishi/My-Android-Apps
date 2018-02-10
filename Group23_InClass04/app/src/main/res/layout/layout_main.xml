@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="21dp"
+        android:layout_marginTop="45dp"
+        android:text="@string/textName" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="26dp"
+        android:text="@string/textDept" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="28dp"
+        android:text="@string/textAge" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="38dp"
+        android:text="@string/textZip" />
+
+    <EditText
+        android:id="@+id/inputName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_marginStart="41dp"
+        android:layout_toEndOf="@+id/textView"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:text="@string/inputName" />
+
+    <EditText
+        android:id="@+id/inputDept"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputName"
+        android:layout_below="@+id/inputName"
+        android:ems="10"
+        android:hint="Dept"
+        android:inputType="textPersonName"
+        android:text="@string/inputDept" />
+
+    <EditText
+        android:id="@+id/inputAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/inputDept"
+        android:layout_below="@+id/inputDept"
+        android:ems="10"
+        android:hint="Age"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputZip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputAge"
+        android:layout_below="@+id/inputAge"
+        android:ems="10"
+        android:hint="Zip"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_centerVertical="true"
+        android:text="@string/textpassword" />
+
+
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="21dp"
+        android:text="@string/result"
+        android:layout_below="@+id/btnAsync"
+        android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/btnThread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnThread"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="19dp"
+        android:layout_alignEnd="@+id/btnAsync"
+        android:layout_alignStart="@+id/btnAsync" />
+
+    <Button
+        android:id="@+id/btnAsync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnAsync"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/btnThread"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <Button
+        android:id="@+id/btnclear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/result"
+        android:layout_marginTop="17dp"
+        android:layout_toEndOf="@+id/textView"
+        android:text="@string/btnclear" />
+
+    <Button
+        android:id="@+id/btnClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnclear"
+        android:layout_alignEnd="@+id/btnAsync"
+        android:layout_marginEnd="25dp"
+        android:text="@string/btnClose" />
+</RelativeLayout>

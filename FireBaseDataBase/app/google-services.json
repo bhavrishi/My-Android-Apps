@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "523664176229",
+    "firebase_url": "https://fir-rishi-c45bd.firebaseio.com",
+    "project_id": "fir-rishi-c45bd",
+    "storage_bucket": "fir-rishi-c45bd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:523664176229:android:4b7cba181407b0bb",
+        "android_client_info": {
+          "package_name": "com.myonic.rishibhv.firebasedatabases"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "523664176229-1r6khfmr8sl48gss1scn14uccrk4q24a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myonic.rishibhv.firebasedatabases",
+            "certificate_hash": "415cc4dfcb1f6986ab9955c2f2a4f60d89602adb"
+          }
+        },
+        {
+          "client_id": "523664176229-66sqadiouvummll0sl5fnik4jl2lieis.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDuKHvoUmUlsM9QceDo7f3gF5bx9CFIBx4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "523664176229-66sqadiouvummll0sl5fnik4jl2lieis.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

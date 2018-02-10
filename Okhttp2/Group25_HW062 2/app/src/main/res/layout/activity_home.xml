@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myonic.rishibhv.group25_hw06.HomeActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+android:layout_height="wrap_content"
+
+        android:id="@+id/relativeLayout"
+        android:background="?attr/colorPrimary"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+       <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="wrap_content"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:contentInsetLeft="0dp"
+            app:contentInsetStart="0dp"
+            app:contentInsetRight="0dp"
+            app:contentInsetEnd="0dp"
+            >
+           <TextView
+               android:id="@+id/outUname"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+
+               android:layout_alignParentStart="true"
+               android:layout_alignParentTop="true"
+               android:text="TextViewww" />
+
+       </android.support.v7.widget.Toolbar>
+
+        <ImageView
+            android:id="@+id/tv_header_title"
+            android:layout_width="75dp"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_gravity="right"
+            android:src="@drawable/friends_list" />
+
+
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtposts"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/inputpost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/imageView2"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        app:srcCompat="@drawable/post" />
+
+    <TextView
+        android:id="@+id/txtposts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:text="Posts"
+        android:layout_below="@+id/relativeLayout" />
+
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Previous_InClass03</string>
+    <string name="textcount" >Select Count</string>
+    <string name="countvalue" />
+    <string name="generateButton">Generate</string>
+    <string name="textselect">Selected Text</string>
+    <string name="valueselect" />
+</resources>

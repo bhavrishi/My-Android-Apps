@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Previous2</string>
+    <string name="action_settings">Settings</string>
+    <string name="utcValue">UTC</string>
+    <string name="hoursText" />
+    <string name="minText" />
+    <string name="switcham">ON</string>
+    <string name="off">OFF</string>
+    <string name="est">EST</string>
+    <string name="result" />
+    <string name="estButton">EStandard Time</string>
+    <string name="cstButton">CST</string>
+    <string name="mstButton">MST</string>
+    <string name="pstButton">PST</string>
+    <string name="clearButton">Clear</string>
+    <string name="minutes" />
+</resources>

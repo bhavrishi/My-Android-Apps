@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/utcValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/utcValue"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/hoursText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/utcValue"
+        android:layout_marginLeft="18dp"
+        android:layout_marginStart="18dp"
+        android:layout_toLeftOf="@+id/cstButton"
+        android:layout_toRightOf="@+id/utcValue"
+        android:layout_toStartOf="@+id/cstButton"
+        android:ems="10"
+        android:inputType="time"
+        android:text="@string/hoursText" />
+
+    <EditText
+        android:id="@+id/minText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/hoursText"
+        android:layout_alignBottom="@+id/hoursText"
+        android:layout_toEndOf="@+id/estButton"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/minText"
+        android:layout_toRightOf="@+id/estButton" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/est"
+        android:layout_alignBaseline="@+id/result"
+        android:layout_alignBottom="@+id/result"
+        android:layout_alignRight="@+id/utcValue"
+        android:layout_alignEnd="@+id/utcValue" />
+
+    <EditText
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/result"
+        android:layout_marginTop="39dp"
+        android:layout_below="@+id/hoursText"
+        android:layout_alignLeft="@+id/hoursText"
+        android:layout_alignStart="@+id/hoursText" />
+
+    <Button
+        android:id="@+id/cstButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/cstButton"
+        android:layout_above="@+id/mstButton"
+        android:layout_alignLeft="@+id/mstButton"
+        android:layout_alignStart="@+id/mstButton"
+        android:layout_marginBottom="15dp"
+        android:layout_alignRight="@+id/estButton"
+        android:layout_alignEnd="@+id/estButton" />
+
+    <Button
+        android:id="@+id/mstButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mstButton"
+        android:layout_above="@+id/pstButton"
+        android:layout_alignLeft="@+id/pstButton"
+        android:layout_alignStart="@+id/pstButton"
+        android:layout_marginBottom="14dp" />
+
+    <Button
+        android:id="@+id/pstButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/pstButton"
+        android:layout_above="@+id/clearButton"
+        android:layout_alignLeft="@+id/clearButton"
+        android:layout_alignStart="@+id/clearButton" />
+
+    <Button
+        android:id="@+id/clearButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/clearButton"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <Switch
+        android:id="@+id/switcham"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_below="@+id/result"
+        android:layout_marginLeft="14dp"
+        android:layout_marginStart="14dp"
+        android:layout_marginTop="37dp"
+        android:text="@string/switcham" />
+
+    <EditText
+        android:id="@+id/minutes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/cstButton"
+        android:layout_alignRight="@+id/cstButton"
+        android:layout_alignTop="@+id/hoursText"
+        android:layout_marginLeft="46dp"
+        android:layout_marginStart="46dp"
+        android:layout_toRightOf="@+id/switcham"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="@string/minutes" />
+
+    <Button
+        android:id="@+id/estButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/switcham"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:text="@string/estButton" />
+</RelativeLayout>

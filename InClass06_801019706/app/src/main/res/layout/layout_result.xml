@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="19dp"
+        android:layout_marginTop="30dp"
+        android:text="title" />
+
+    <TextView
+        android:id="@+id/texttitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView"
+        android:layout_alignParentEnd="true"
+        android:layout_toEndOf="@+id/textView"
+        android:text="@string/texttitle" />
+
+    <ImageView
+        android:id="@+id/imgresult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="92dp"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView"
+        android:layout_below="@+id/imgresult"
+        android:layout_marginTop="38dp"
+        android:text="Ingredients" />
+
+    <TextView
+        android:id="@+id/textingredients"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:text="@string/textingredients" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textingredients"
+        android:layout_marginTop="22dp"
+        android:text="URL"
+        android:id="@+id/textView7"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/texturl"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/texturl"
+        android:layout_alignBaseline="@+id/textView7"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_toEndOf="@+id/textView7" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:text="@string/btnfinish" />
+
+    <ImageView
+        android:id="@+id/imgprevious"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button"
+        android:layout_toEndOf="@+id/textView4"
+        app:srcCompat="@drawable/rsz_previous" />
+
+    <ImageView
+        android:id="@+id/imgnext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button"
+        android:layout_marginStart="13dp"
+        android:layout_toEndOf="@+id/button"
+        app:srcCompat="@drawable/rsz_next" />
+
+    <ImageView
+        android:id="@+id/imglast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imgnext"
+        android:layout_marginEnd="23dp"
+        app:srcCompat="@drawable/rsz_last" />
+
+    <ImageView
+        android:id="@+id/imgfirst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/texturl"
+        android:layout_alignTop="@+id/imgprevious"
+        android:layout_marginStart="12dp"
+        app:srcCompat="@drawable/rsz_first" />
+</RelativeLayout>

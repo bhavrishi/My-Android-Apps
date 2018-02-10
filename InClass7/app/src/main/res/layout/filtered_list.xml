@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+     * Assignment: InClass07
+ * Name: filtered_list.xml
+ * Date: 10/24/2017
+ * Anvesh Kottapelli
+ * Bhavya Gedi
+ -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="200dp"
+    android:layout_height="200dp"
+    android:layout_margin="5dp"
+    android:orientation="vertical"
+    android:weightSum="1"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.973">
+
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="0.39"
+        app:srcCompat="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/appname"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.24"
+        android:text="App Name"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_weight="0.15"
+        android:text="Price"
+        android:textAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <ImageView
+            android:id="@+id/dollarimage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginEnd="25dp"
+            android:scaleType="fitCenter"
+            app:srcCompat="@drawable/price_high" />
+
+        <ImageButton
+            android:id="@+id/delete"
+            android:layout_width="50dp"
+            android:layout_height="48dp"
+            android:layout_gravity="bottom"
+            android:paddingEnd="20dp"
+            android:onClick="onClick"
+            android:paddingStart="20dp"
+            android:scaleType="centerCrop"
+            app:srcCompat="@drawable/delete_icon" />
+    </LinearLayout>
+
+</LinearLayout>

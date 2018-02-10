@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <SeekBar
+        android:id="@+id/seekBar2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="115dp" />
+
+    <TextView
+        android:id="@+id/textcount"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/seekBar2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="53dp"
+       android:gravity="center"
+        android:text="@string/textcount" />
+
+    <TextView
+        android:id="@+id/countvalue"
+        android:layout_width="40dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textcount"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:text="@string/countvalue" />
+
+    <Button
+        android:id="@+id/generateButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/seekBar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="72dp"
+        android:text="@string/generateButton" />
+
+    <TextView
+        android:id="@+id/textselect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textcount"
+        android:layout_alignRight="@+id/textcount"
+        android:layout_below="@+id/seekBar2"
+        android:layout_marginEnd="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/textselect" />
+
+    <TextView
+        android:id="@+id/valueselect"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textselect"
+        android:layout_toEndOf="@+id/textselect"
+        android:text="@string/valueselect"
+        android:layout_toRightOf="@+id/textselect" />
+</RelativeLayout>

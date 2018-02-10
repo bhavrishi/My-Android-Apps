@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Previous_Concurrency</string>
+    <string name="textselect">Select Complex</string>
+    <string name="texttimes" />
+    <string name="btnasync">Async</string>
+    <string name="btnHandler">Handler</string>
+    <string name="textresult" />
+</resources>

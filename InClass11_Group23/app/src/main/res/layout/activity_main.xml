@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="uncc.com.inclass11_group23.MainActivity">
+
+
+
+
+    <EditText
+        android:id="@+id/lgUName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="70dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="User Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/lgpwd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/lgUName"
+        android:layout_below="@+id/lgUName"
+        android:layout_marginTop="17dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/lgsignup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Not a Member? Sign Up"
+        android:layout_marginBottom="35dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/btngoogle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/lgsignup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="36dp"
+        android:text="Button" />
+
+    <Button
+        android:id="@+id/btnlogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btngoogle"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="11dp"
+        android:text="Login" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InClass02</string>
+    <string name="calculate_button">Calculate</string>
+    <string name="clear_button">Clear</string>
+    <string name="triangle">Triangle</string>
+    <string name="square">Square</string>
+    <string name="circle">Circle</string>
+    <string name="defaul_select_shape">Select a shape</string>
+    <string name="length1">Length1:</string>
+    <string name="length2">Length 2:</string>
+    <string name="calculatebutton">Calculate</string>
+    <string name="clearButton">Clear</string>
+</resources>

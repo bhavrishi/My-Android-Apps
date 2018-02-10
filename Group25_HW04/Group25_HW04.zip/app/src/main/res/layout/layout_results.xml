@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="44dp"
+        android:gravity="center"
+        android:text="@string/TriviaStat"
+        android:textAppearance="@style/TextAppearance.AppCompat.Button" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="300dp"
+        android:layout_height="30dp"
+        android:layout_alignEnd="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="43dp"
+        android:layout_toStartOf="@+id/textView2"
+        android:text="@string/correctAns"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="14dp"
+        android:layout_toStartOf="@+id/textView2"
+        android:text="@string/textpercent"
+        android:layout_below="@+id/textView4" />
+
+    <ProgressBar
+        android:id="@+id/percentageProgressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignEnd="@+id/textView4"
+        android:layout_toEndOf="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/messageTextView"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/percentageProgressBar"
+        android:layout_marginTop="125dp"
+        android:layout_toEndOf="@+id/textView5"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/buttonQuit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView5"
+        android:layout_marginBottom="41dp"
+        android:text="@string/btnQuit" />
+
+    <Button
+        android:id="@+id/buttonTryAgain"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/buttonQuit"
+        android:layout_marginEnd="42dp"
+        android:text="@string/btnTryAgain" />
+</RelativeLayout>

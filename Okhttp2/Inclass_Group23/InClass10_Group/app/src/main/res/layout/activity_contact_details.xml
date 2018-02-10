@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radiogrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnSubmit"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="59dp">
+
+        <RadioButton
+            android:id="@+id/radiosis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radiosis" />
+
+        <RadioButton
+            android:id="@+id/radiocs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radiocs" />
+
+        <RadioButton
+            android:id="@+id/radiobio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radiobio" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/inputphone"
+        android:layout_alignParentStart="true"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnSubmit" />
+
+    <EditText
+        android:id="@+id/inputphone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radiogrp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="54dp"
+        android:ems="10"
+        android:hint="Phone"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/inputname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/inputphone"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="33dp"
+        android:ems="10"
+        android:hint="Name"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imgcontact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnSubmit"
+        app:srcCompat="@drawable/select_avatar" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/radiogrp"
+        android:layout_alignParentStart="true"
+        android:text="Department" />
+</RelativeLayout>

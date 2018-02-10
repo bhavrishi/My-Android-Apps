@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/texttimes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textselect"
+        android:layout_alignBottom="@+id/textselect"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_toEndOf="@+id/textselect"
+        android:layout_toRightOf="@+id/textselect"
+        android:text="@string/texttimes" />
+
+    <TextView
+        android:id="@+id/textselect"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="50dp"
+        android:paddingTop="50dp"
+        android:text="@string/textselect" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:max="10"
+        android:progress="0"
+        android:layout_above="@+id/btnasync"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/btnasync"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/btnasync" />
+
+    <Button
+        android:id="@+id/btnHandler"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnasync"
+        android:layout_alignStart="@+id/btnasync"
+        android:layout_below="@+id/btnasync"
+        android:layout_marginTop="28dp"
+        android:text="@string/btnHandler" />
+
+    <TextView
+        android:id="@+id/textresult"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="@string/textresult"
+        android:layout_above="@+id/seekBar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="16dp" />
+</RelativeLayout>

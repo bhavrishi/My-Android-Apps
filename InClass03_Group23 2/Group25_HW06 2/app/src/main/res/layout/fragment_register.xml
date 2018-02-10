@@ -1,0 +1,76 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="uncc.com.group25_hw06.RegisterFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imguser"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="14dp"
+            app:srcCompat="@drawable/add_photo" />
+
+        <EditText
+            android:id="@+id/tfname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imguser"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="34dp"
+            android:ems="10"
+            android:hint="First Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tlanme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tfname"
+            android:layout_below="@+id/tfname"
+            android:layout_marginTop="16dp"
+            android:ems="10"
+            android:hint="Last Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tuname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tlanme"
+            android:layout_below="@+id/tlanme"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:hint="User Name"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/tpwd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/tuname"
+            android:layout_below="@+id/tuname"
+            android:layout_marginTop="13dp"
+            android:ems="10"
+            android:hint="Password"
+            android:inputType="textPersonName" />
+
+        <Button
+            android:id="@+id/btnuserreg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:text="Register"
+            android:layout_below="@+id/tpwd"
+            android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+
+
+</FrameLayout>

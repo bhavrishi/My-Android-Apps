@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btncreate"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:text="@string/btncreate"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/btnedit"
+        android:layout_marginTop="69dp" />
+
+    <Button
+        android:id="@+id/btndelete"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btndisplay"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="39dp"
+        android:text="@string/btndelete" />
+
+    <Button
+        android:id="@+id/btndisplay"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/btnfinish"
+        android:layout_alignStart="@+id/btndelete"
+        android:layout_marginBottom="78dp"
+        android:text="@string/btndisplay" />
+
+    <Button
+        android:id="@+id/btnfinish"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/btndisplay"
+        android:layout_marginBottom="60dp"
+        android:text="@string/btnfinish" />
+
+    <Button
+        android:id="@+id/btnedit"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btndelete"
+        android:layout_alignStart="@+id/btndelete"
+        android:layout_marginBottom="40dp"
+        android:text="@string/btnedit" />
+</RelativeLayout>

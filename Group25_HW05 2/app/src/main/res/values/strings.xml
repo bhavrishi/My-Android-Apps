@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Group25_HW05</string>
+    <string name="btnsearch">Search</string>
+    <string name="inputText" />
+    <string name="texturl">URL</string>
+    <string name="textartist">Artist</string>
+    <string name="textname">Name</string>
+</resources>

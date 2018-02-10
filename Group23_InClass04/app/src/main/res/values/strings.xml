@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Group23_InClass04</string>
+    <string name="textName">Name</string>
+    <string name="textDept">Dept</string>
+    <string name="textAge">Age</string>
+    <string name="textZip">Zip</string>
+    <string name="inputName" />
+    <string name="inputDept" />
+    <string name="inputAge" />
+    <string name="inputZip" />
+    <string name="textpassword">Password</string>
+    <string name="btnThread">Generate Using Thread</string>
+    <string name="btnAsync">Generate Using AsyncTask</string>
+    <string name="btnclear">Clear</string>
+    <string name="btnClose">Close</string>
+    <string name="result" />
+</resources>

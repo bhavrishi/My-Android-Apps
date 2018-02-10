@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/linearlayoutOther"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:orientation="horizontal">
+
+    <EditText
+        android:id="@+id/editTextMainOther"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:layout_weight="1" />
+
+    <ImageButton
+        android:id="@+id/imageButtonMainOther"
+        android:layout_width="60dp"
+        android:layout_height="42dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="5dp"
+        android:background="@android:color/transparent"
+        android:onClick="onClickButton"
+        android:scaleType="centerInside"
+        android:tag="Add"
+        app:srcCompat="@drawable/add" />
+
+
+</LinearLayout>

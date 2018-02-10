@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">InClass06_801019706</string>
+
+    <string name="result_scree">Words Found</string>
+    <string name="searchString">Search</string>
+    <string name="mainCheckBoc">Match Cases</string>
+    <string name="textviewSearchTitle">Add words to search:</string>
+    <string name="buttonFinish">Finish</string>
+    <string name="inputDish" />
+    <string name="btnfinish">Finish</string>
+    <string name="texttitle" />
+    <string name="textingredients" />
+    <string name="texturl" />
+</resources>

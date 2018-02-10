@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MapsTest</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="action_clear">Clear</string>
+    <string name="action_circle">Draw Circle</string>
+    <string name="action_overlay">Draw Overlay</string>
+    <string name="action_polygon">Draw Polygon</string>
+    <string name="action_traffic">Toggle Traffic</string>
+    <string name="action_cycle_map_type">Cycle Map Type</string>
+
+    <string name="dialog_play_services_unavailable">Google Play Services are unavailable.</string>
+    <string name="dialog_download_play_services">Download Play Services</string>
+    <string name="dialog_close_program">Close Program</string>
+</resources>

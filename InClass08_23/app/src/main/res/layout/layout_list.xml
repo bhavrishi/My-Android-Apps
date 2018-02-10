@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:text="Title:" />
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/imageView"
+        android:layout_toEndOf="@+id/textView" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        app:srcCompat="@mipmap/ic_launcher"
+        android:layout_marginTop="11dp"
+        android:layout_below="@+id/textView"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ingredients"
+        android:layout_below="@+id/imageView"
+        android:layout_toStartOf="@+id/textViewTitle"
+        android:layout_marginTop="64dp" />
+
+    <TextView
+        android:id="@+id/textViewIngredients"
+        android:layout_width="200dp"
+        android:layout_height="70dp"
+        android:layout_marginTop="29dp"
+        android:text="t"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewIngredients"
+        android:layout_marginTop="17dp"
+        android:text="@string/url"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_alignStart="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textViewURL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="t"
+        android:layout_alignBaseline="@+id/textView5"
+        android:layout_alignBottom="@+id/textView5"
+        android:layout_alignParentEnd="true"
+        android:layout_alignStart="@+id/textViewIngredients" />
+
+</RelativeLayout>

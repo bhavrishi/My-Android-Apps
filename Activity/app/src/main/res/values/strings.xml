@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="helloDear">Main Activity</string>
+    <string name="button">Go to Second Activity</string>
+    <string name="title_activity_second">SecondActivity</string>
+    <string name="title_activity_third">ThirdActivity</string>
+    <string name="input">inputtext</string>
+</resources>

@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HW2_Groups25</string>
+    <string name="btncreate">Create New</string>
+    <string name="btnedit">Edit Contact</string>
+    <string name="btndelete">Delete Contact</string>
+    <string name="btndisplay">Display Contact</string>
+    <string name="btnfinish">Finish</string>
+    <string name="inputfirst" />
+    <string name="inputlast" />
+    <string name="inpuCompany" />
+    <string name="inputPhone" />
+    <string name="inputEmail" />
+    <string name="inputURL" />
+    <string name="inputAddress" />
+    <string name="inputBDate" />
+    <string name="inputNickName" />
+    <string name="inputFBURL" />
+    <string name="inputTwitter" />
+    <string name="inputSkype" />
+    <string name="inputUtube" />
+    <string name="btnSave">Save</string>
+    <string name="detName" />
+</resources>

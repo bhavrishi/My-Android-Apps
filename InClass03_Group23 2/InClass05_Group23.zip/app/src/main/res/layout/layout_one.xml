@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textDish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="28dp"
+        android:text="@string/textdish" />
+
+    <EditText
+        android:id="@+id/inputdish"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Enter the Dish Name"
+        android:inputType="textPersonName"
+        android:text="@string/inputdish"
+        android:layout_alignBaseline="@+id/textDish"
+        android:layout_alignBottom="@+id/textDish"
+        android:layout_alignEnd="@+id/scrollView2" />
+
+    <TextView
+        android:id="@+id/textAddIng"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textDish"
+        android:layout_below="@+id/textDish"
+        android:layout_marginTop="27dp"
+        android:text="@string/textAddIng" />
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="350dp"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textAddIng"
+        android:layout_marginTop="24dp"
+        android:id="@+id/scrollView2">
+
+        <RelativeLayout
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/input1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/textAddIng"
+                android:layout_below="@+id/textAddIng"
+                android:layout_marginTop="36dp"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/input1" />
+
+            <EditText
+                android:id="@+id/input2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/imgadd1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/input2" />
+
+            <ImageView
+                android:id="@+id/imgadd1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignTop="@+id/input1"
+                android:layout_marginEnd="17dp"
+                app:srcCompat="@drawable/add" />
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignStart="@+id/imgadd1"
+                android:layout_below="@+id/imgadd1"
+                app:srcCompat="@drawable/add" />
+
+            <EditText
+                android:id="@+id/input4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/input3"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/input4" />
+
+            <EditText
+                android:id="@+id/input3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/img2"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/input3" />
+
+            <EditText
+                android:id="@+id/input5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="@string/input5"
+                android:layout_below="@+id/input4"
+                android:layout_alignParentStart="true" />
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/add"
+                android:layout_below="@+id/img2"
+                android:layout_alignStart="@+id/img2" />
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/input5"
+                android:layout_alignStart="@+id/img3"
+                app:srcCompat="@drawable/add" />
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/input5"
+                android:layout_alignEnd="@+id/img4"
+                app:srcCompat="@drawable/add" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/btnsearch"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/inputdish"
+        android:layout_marginStart="11dp"
+        android:layout_marginBottom="15dp" />
+
+</RelativeLayout>

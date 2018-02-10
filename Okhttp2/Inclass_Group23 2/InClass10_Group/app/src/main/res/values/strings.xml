@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">InClass10_Group</string>
+
+    <string name="textdepartment">Department:</string>
+    <string name="inputname">Name</string>
+    <string name="inputemail">Email</string>
+    <string name="radiosis">SIS</string>
+    <string name="radiocs">CS</string>
+    <string name="radiobio">BIO</string>
+    <string name="textmood">Your Current Mood:</string>
+    <string name="valuemood" />
+    <string name="btnSubmit">Submit</string>
+    <string name="title_activity_select_avatar">SelectAvatar</string>
+    <string name="textselectimg">Select your Avatar</string>
+    <string name="finalname">Name:</string>
+    <string name="finalemail">Email:</string>
+    <string name="finaldept">Department:</string>
+    <string name="textfinalmood">I am Angry!</string>
+    <string name="valuename" />
+    <string name="valuedept" />
+    <string name="valueemail" />
+</resources>

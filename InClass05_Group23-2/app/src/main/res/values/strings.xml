@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">InClass05_Group23</string>
+    <string name="title">Title:</string>
+    <string name="url">URL:</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="finish">Finish</string>
+    <string name="Dish">textdish</string>
+    <string name="inputdish" />
+    <string name="textAddIng">Add Ingredients</string>
+    <string name="input1" />
+    <string name="input2" />
+    <string name="input3" />
+    <string name="input4" />
+    <string name="input5" />
+    <string name="btnsearch">Search</string>
+    <string name="textdish">Dish</string>
+
+</resources>

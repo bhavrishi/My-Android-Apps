@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">TestApp</string>
+    <string name="action_settings">Settings</string>
+    <string name="teext1">Hey Dear Rishi!</string>
+    <string name="ButtonLabel">OK</string>
+    <string name="cancellabel">Cancel</string>
+</resources>

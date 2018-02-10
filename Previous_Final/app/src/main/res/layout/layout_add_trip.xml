@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/inputtrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:ems="10"
+        android:hint="Trip Name"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputcity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/inputtrip"
+        android:ems="10"
+        android:hint="city"
+        android:inputType="textPersonName" />
+
+    <Button
+        android:id="@+id/btnsearch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/inputtrip"
+        android:text="Search" />
+
+    <Button
+        android:id="@+id/btnaddtrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/inputcity"
+        android:layout_alignParentBottom="true"
+        android:text="Add Trip" />
+
+     <ListView
+         android:id="@+id/lv"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_alignParentStart="true"
+         android:layout_below="@+id/btnsearch"
+         android:layout_above="@+id/btnaddtrip" />
+
+</RelativeLayout>

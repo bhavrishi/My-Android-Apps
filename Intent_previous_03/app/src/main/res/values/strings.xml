@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Intent_previous_03</string>
+    <string name="textfavlang">Fav Language</string>
+    <string name="textname" />
+    <string name="textemail" />
+    <string name="textacnt">Account Searchable</string>
+    <string name="textmood">Your Mood</string>
+    <string name="buttonsubmit">submit</string>
+    <string name="radiojava">Java</string>
+    <string name="radioc">C</string>
+    <string name="radiocplus">C++</string>
+    <string name="textnames">Name</string>
+    <string name="textemails">Email</string>
+    <string name="textmoods">Mood</string>
+    <string name="textacnts">Account</string>
+    <string name="textlanguage">Language</string>
+    <string name="valuename" />
+    <string name="valueemail" />
+    <string name="valuelang" />
+    <string name="valueaccount" />
+    <string name="valuemood" />
+    <string name="name3" />
+    <string name="nameedit3" />
+    <string name="email3" />
+    <string name="radiojava3">Java</string>
+    <string name="btnsave">SAVE</string>
+    <string name="emailfinal" />
+    <string name="efinal" />
+    <string name="title_activity_test">TestActivity</string>
+</resources>

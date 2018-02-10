@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">FireBasePush2</string>
+    <string name="genre_select">Rock</string>
+
+    <string-array name="day_arrays">
+        <item>Rock</item>
+        <item>Pop</item>
+        <item>Classical</item>
+        <item>Jazz</item>
+        <item>Traditional</item>
+
+
+    </string-array>
+</resources>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/radiogrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textdepartment"
+        android:layout_alignLeft="@+id/textdepartment"
+        android:layout_alignStart="@+id/textdepartment">
+
+        <RadioButton
+            android:id="@+id/radiosis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radiosis" />
+
+        <RadioButton
+            android:id="@+id/radiocs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radiocs" />
+
+        <RadioButton
+            android:id="@+id/radiobio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/radiobio" />
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/inputname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="@string/inputname"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/inputemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputname"
+        android:layout_alignStart="@+id/inputname"
+        android:layout_below="@+id/inputname"
+        android:layout_marginTop="19dp"
+        android:ems="10"
+        android:hint="@string/inputemail"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/defaultimage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="12dp"
+        app:srcCompat="@drawable/select_avatar"
+        android:layout_below="@+id/inputemail"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textdepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/inputemail"
+        android:layout_alignStart="@+id/inputemail"
+        android:layout_below="@+id/defaultimage"
+        android:layout_marginTop="19dp"
+        android:text="@string/textdepartment" />
+
+    <TextView
+        android:id="@+id/textmood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/radiogrp"
+        android:layout_marginTop="15dp"
+        android:text="@string/textmood" />
+
+    <TextView
+        android:id="@+id/valuemood"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/defaultimage"
+        android:layout_alignStart="@+id/defaultimage"
+        android:layout_alignTop="@+id/textmood"
+        android:text="@string/valuemood" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        style="@style/Widget.AppCompat.SeekBar.Discrete"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textmood"
+        android:layout_marginLeft="12dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="16dp"
+        android:max="3"
+        android:progress="0" />
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/btnSubmit" />
+
+    <ImageView
+        android:id="@+id/imgmood"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/valuemood"
+        android:layout_marginLeft="11dp"
+        android:layout_marginStart="11dp"
+        android:layout_toEndOf="@+id/seekBar"
+        android:layout_toRightOf="@+id/seekBar"
+        app:srcCompat="@drawable/angry" />
+</RelativeLayout>

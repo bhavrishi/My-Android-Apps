@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Search Words</string>
+    <string name="result_scree">Words Found</string>
+    <string name="searchString">Search</string>
+    <string name="mainCheckBoc">Match Cases</string>
+    <string name="textviewSearchTitle">Add words to search:</string>
+    <string name="buttonFinish">Finish</string>
+</resources>

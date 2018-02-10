@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="104dp"
+            android:paddingTop="30dp"
+            app:srcCompat="@drawable/add_photo" />
+
+        <EditText
+            android:id="@+id/inputfirst"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="First"
+            android:inputType="textPersonName"
+            android:paddingTop="35dp"
+            android:text="@string/inputfirst" />
+
+        <EditText
+            android:id="@+id/inputlast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Last"
+            android:paddingTop="35dp"
+            android:inputType="textPersonName"
+            android:text="@string/inputlast" />
+
+        <EditText
+            android:id="@+id/inputCompany"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Company"
+            android:paddingTop="35dp"
+            android:inputType="textPersonName"
+            android:text="@string/inpuCompany" />
+
+        <EditText
+            android:id="@+id/inputPhone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Phone"
+            android:paddingTop="35dp"
+            android:inputType="textPersonName"
+            android:text="@string/inputPhone" />
+
+        <EditText
+            android:id="@+id/inputEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Email"
+            android:paddingTop="35dp"
+            android:inputType="textPersonName"
+            android:text="@string/inputEmail" />
+
+        <EditText
+            android:id="@+id/inputAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Address"
+            android:inputType="textPersonName"
+            android:paddingTop="35dp"
+            android:text="@string/inputAddress" />
+
+        <EditText
+            android:id="@+id/inputURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="URL"
+            android:paddingTop="35dp"
+            android:inputType="textPersonName"
+            android:text="@string/inputURL" />
+
+
+        <EditText
+            android:id="@+id/inputBDate"
+            android:paddingTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Pick Date"
+            android:text="@string/inputBDate" />
+
+        <EditText
+            android:id="@+id/inputNickName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Nick Name"
+            android:paddingTop="35dp"
+            android:inputType="textPersonName"
+            android:text="@string/inputNickName" />
+
+        <EditText
+            android:id="@+id/inputFBURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="FB URL"
+            android:inputType="textPersonName"
+            android:paddingTop="35dp"
+            android:text="@string/inputFBURL" />
+
+        <EditText
+            android:id="@+id/inputTwitter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="35dp"
+            android:hint="Twitter URL"
+            android:inputType="textPersonName"
+            android:text="@string/inputTwitter" />
+
+        <EditText
+            android:id="@+id/inputSkype"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:paddingTop="35dp"
+            android:hint="Skype"
+            android:inputType="textPersonName"
+            android:text="@string/inputSkype" />
+
+        <EditText
+            android:id="@+id/inputUtube"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="YouTube URL"
+            android:paddingTop="35dp"
+            android:inputType="textPersonName"
+            android:text="@string/inputUtube" />
+
+        <Button
+            android:id="@+id/btnSave"
+            android:paddingTop="35dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/btnSave" />
+
+    </LinearLayout>
+</ScrollView>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView_length1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="26dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:text="@string/length1" />
+
+    <TextView
+        android:id="@+id/textView_length2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_length1"
+        android:layout_alignStart="@+id/textView_length1"
+        android:layout_below="@+id/textView_length1"
+        android:layout_marginTop="34dp"
+        android:text="@string/length2" />
+
+    <EditText
+        android:id="@+id/editText_length1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="38dp"
+        android:layout_marginStart="38dp"
+        android:layout_toEndOf="@+id/textView_length1"
+        android:layout_toRightOf="@+id/textView_length1"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/editText_length2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/editText_length1"
+        android:layout_alignStart="@+id/editText_length1"
+        android:layout_below="@+id/editText_length1"
+        android:layout_marginTop="16dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imageView_triangle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView_length2"
+        android:layout_alignRight="@+id/textView_length2"
+        android:layout_below="@+id/editText_length2"
+        android:layout_marginTop="50dp"
+        app:srcCompat="@drawable/triangle" />
+
+    <ImageView
+        android:id="@+id/imageView_square"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/square"
+        android:layout_alignTop="@+id/imageView_triangle"
+        android:layout_alignLeft="@+id/editText_length2"
+        android:layout_alignStart="@+id/editText_length2" />
+
+    <ImageView
+        android:id="@+id/imageView_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/editText_length2"
+        android:layout_alignRight="@+id/editText_length2"
+        android:layout_alignTop="@+id/imageView_square"
+        app:srcCompat="@drawable/circle" />
+
+    <TextView
+        android:id="@+id/textView_display_shape"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView_square"
+        android:layout_alignStart="@+id/imageView_square"
+        android:layout_below="@+id/imageView_square"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="36dp"
+        android:text="@string/defaul_select_shape" />
+
+    <Button
+        android:id="@+id/button_calculate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/imageView_square"
+        android:layout_alignRight="@+id/imageView_square"
+        android:layout_below="@+id/textView_display_shape"
+        android:layout_marginTop="18dp"
+        android:text="@string/calculatebutton" />
+
+    <TextView
+        android:id="@+id/textView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView_display_shape"
+        android:layout_alignStart="@+id/textView_display_shape"
+        android:layout_below="@+id/button_calculate"
+        android:layout_marginTop="25dp" />
+
+    <Button
+        android:id="@+id/button_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button_calculate"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button_calculate"
+        android:layout_marginBottom="28dp"
+        android:text="@string/clearButton" />
+
+</RelativeLayout>

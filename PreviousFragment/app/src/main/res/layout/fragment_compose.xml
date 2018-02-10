@@ -1,0 +1,40 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.inclass.uncc.previousfragment.ComposeFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnsend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:text="Send" />
+
+        <EditText
+            android:id="@+id/inputmsg"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_above="@+id/btnsend"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView"
+            android:gravity="top"
+            android:inputType="text|textMultiLine" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="29dp"
+            android:text="Message" />
+    </RelativeLayout>
+</FrameLayout>

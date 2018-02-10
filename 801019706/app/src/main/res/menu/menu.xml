@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/tools">
+    <item
+        android:id="@+id/item_sort_rating"
+
+        android:title="Sort By Rating"
+        app:showsAsAction="xmlns:app=http://schemas.android.com/tools"></item>
+    <item
+        android:id="@+id/item_sort_pop"
+
+        android:title="Sort By Popularity"
+        app:showsAsAction="xmlns:app=http://schemas.android.com/tools"></item>
+    <item
+        android:id="@+id/item_home2"
+
+        android:title="Home"
+        app:showsAsAction="xmlns:app=http://schemas.android.com/tools"></item>
+    <item
+        android:id="@+id/item_home"
+
+        android:title="Show Favourites"
+        app:showsAsAction="xmlns:app=http://schemas.android.com/tools"></item>
+    <item
+        android:id="@+id/item_quit"
+
+        android:title="Quit"
+        app:showsAsAction="xmlns:app=http://schemas.android.com/tools"></item>
+
+</menu>

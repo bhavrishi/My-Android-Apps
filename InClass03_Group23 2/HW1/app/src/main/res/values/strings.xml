@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">HW1</string>
+    <string name="resultText" >0</string>
+    <string name="button8">8</string>
+    <string name="button9">9</string>
+    <string name="button4">4</string>
+    <string name="buttonfive">5</string>
+    <string name="buttonsix">6</string>
+    <string name="buttonone">1</string>
+    <string name="buttontwo">2</string>
+    <string name="buttonthree">3</string>
+    <string name="buttonc8">8</string>
+    <string name="buttonzero">0</string>
+    <string name="clearbutton">AC</string>
+    <string name="buttonequals">=</string>
+    <string name="buttondivide">/</string>
+    <string name="buttonMultiply">*</string>
+    <string name="buttonSubtract">-</string>
+    <string name="buttonAdd">+</string>
+    <string name="buttonseven">7</string>
+    <string name="buttoneight">8</string>
+    <string name="dotButton">.</string>
+</resources>

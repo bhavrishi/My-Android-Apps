@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "875314826612",
+    "firebase_url": "https://moch-dad16.firebaseio.com",
+    "project_id": "moch-dad16",
+    "storage_bucket": "moch-dad16.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:875314826612:android:f8916ba8ddd243be",
+        "android_client_info": {
+          "package_name": "com.myonic.rishibhv.inclass13_801019706"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "875314826612-l0a2uhuoikoq6q5lseom8ihialljdpdj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myonic.rishibhv.inclass13_801019706",
+            "certificate_hash": "415cc4dfcb1f6986ab9955c2f2a4f60d89602adb"
+          }
+        },
+        {
+          "client_id": "875314826612-13stlbdt5cla8co6jau8gf5d8g23gsvh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD7xZ1zWC9zOARd9RI-wAADgkeXSssUbQQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "875314826612-13stlbdt5cla8co6jau8gf5d8g23gsvh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

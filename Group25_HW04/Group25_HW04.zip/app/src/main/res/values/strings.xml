@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Group25_HW04.zip</string>
+    <string name="btnExit">Exit</string>
+    <string name="btnStart">Start Trivia</string>
+    <string name="textQunum" />
+    <string name="textquestion" />
+    <string name="btnNext">Next</string>
+    <string name="btnQuit">Quit</string>
+
+    <string name="btnnt">Complete Quiz</string>
+    <string name="textpercent" />
+    <string name="TriviaStat">Trivia Status</string>
+    <string name="correctAns">Correct Answers</string>
+    <string name="btnTryAgain">Try Again</string>
+</resources>

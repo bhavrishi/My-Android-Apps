@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.myonic.rishibhv.inclass13_801019706.CreateTripActivity">
+
+    <TextView
+        android:id="@+id/daynight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="Name: "
+        android:layout_alignBottom="@+id/inputtripname" />
+
+    <EditText
+        android:id="@+id/inputtripname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_toEndOf="@+id/daynight"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/daynight"
+        android:layout_marginTop="17dp"
+        android:text="Number of People" />
+
+    <EditText
+        android:id="@+id/inputPeople"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/inputtripname"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/inputPeople"
+        android:layout_marginTop="16dp"
+        android:text="Cost:  " />
+
+    <TextView
+        android:id="@+id/inputcost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView4"
+        android:layout_marginEnd="31dp"
+        android:layout_toStartOf="@+id/inputPeople"
+        android:text="       " />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView4"
+        android:layout_marginTop="13dp"
+        android:text="Add Places: " />
+
+    <ListView
+        android:id="@+id/lv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/btnViewTrip"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textView6" />
+
+    <Button
+        android:id="@+id/btnViewTrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="View Trip" />
+
+    <Button
+        android:id="@+id/btnaddtrip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/inputcost"
+        android:layout_alignTop="@+id/btnViewTrip"
+        android:layout_marginStart="19dp"
+        android:text="Add to Trips" />
+
+    <Button
+        android:id="@+id/btncancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="22dp"
+        android:text="Cancel" />
+
+</RelativeLayout>

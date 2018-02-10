@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/outname"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_toStartOf="@+id/imghome"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <ImageView
+        android:id="@+id/imghome"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:srcCompat="@drawable/home"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true" />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/outname" />
+
+    <EditText
+        android:id="@+id/addmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/imgsend"
+        android:ems="10"
+        android:hint="Type Message to Send"
+        android:inputType="textPersonName" />
+
+    <ImageView
+        android:id="@+id/imgsend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/addmsg"
+        android:layout_toEndOf="@+id/outname"
+        app:srcCompat="@drawable/send" />
+</RelativeLayout>

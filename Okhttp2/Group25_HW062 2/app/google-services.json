@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "64043146752",
+    "firebase_url": "https://hw06rosy.firebaseio.com",
+    "project_id": "hw06rosy",
+    "storage_bucket": "hw06rosy.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:64043146752:android:f28cb633d9716c43",
+        "android_client_info": {
+          "package_name": "com.myonic.rishibhv.group25_hw06"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "64043146752-pcn9u4e1v88d8g2gvtophk9636ijancg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.myonic.rishibhv.group25_hw06",
+            "certificate_hash": "32e37d3a63b5b6b2e034c1335b1bd93cff91fa78"
+          }
+        },
+        {
+          "client_id": "64043146752-vphmh6d001vgmr57cjl42najq8mao9ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC4CyZM8RRqxDN3apgYTkACYenbJrxuBkk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "64043146752-vphmh6d001vgmr57cjl42najq8mao9ka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

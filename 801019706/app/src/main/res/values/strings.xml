@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">801019706</string>
+
+    <string name="btnsearch">Search</string>
+    <string name="inputText" />
+    <string name="texturl">URL</string>
+    <string name="textartist">Artist</string>
+    <string name="textname">Name</string>
+    <string name="outtitle" />
+    <string name="outoverview" />
+    <string name="outdate" />
+    <string name="outrating" />
+
+</resources>

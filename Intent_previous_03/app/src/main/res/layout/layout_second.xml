@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/nameedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit"
+        android:layout_alignBottom="@+id/valuename"
+        android:layout_alignLeft="@+id/langedit"
+        android:layout_alignStart="@+id/langedit" />
+
+    <ImageView
+        android:id="@+id/langedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit"
+        android:layout_alignBottom="@+id/valuelang"
+        android:layout_alignLeft="@+id/accountedit"
+        android:layout_alignStart="@+id/accountedit" />
+
+    <ImageView
+        android:id="@+id/emailedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit"
+        android:layout_below="@+id/nameedit"
+        android:layout_toRightOf="@+id/valuename"
+        android:layout_toEndOf="@+id/valuename" />
+
+    <ImageView
+        android:id="@+id/accountedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit"
+        android:layout_alignBottom="@+id/valueaccount"
+        android:layout_alignLeft="@+id/moodedit"
+        android:layout_alignStart="@+id/moodedit" />
+
+    <TextView
+        android:id="@+id/textnames"
+        android:layout_width="60dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="29dp"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="64dp"
+        android:text="@string/textnames" />
+
+    <TextView
+        android:id="@+id/textemails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="@string/textemails"
+        android:layout_below="@+id/textnames"
+        android:layout_alignLeft="@+id/textnames"
+        android:layout_alignStart="@+id/textnames"
+        android:layout_alignRight="@+id/textnames"
+        android:layout_alignEnd="@+id/textnames" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textnames"
+        android:layout_alignStart="@+id/textnames"
+        android:layout_below="@+id/textemails"
+        android:layout_marginTop="43dp"
+        android:text="@string/textlanguage" />
+
+    <TextView
+        android:id="@+id/textacnts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/textView5"
+        android:layout_alignRight="@+id/textView5"
+        android:layout_below="@+id/textView5"
+        android:layout_marginTop="48dp"
+        android:text="@string/textacnts"
+        android:layout_alignLeft="@+id/textView5"
+        android:layout_alignStart="@+id/textView5" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textacnts"
+        android:layout_alignStart="@+id/textacnts"
+        android:layout_below="@+id/textacnts"
+        android:layout_marginTop="52dp"
+        android:text="@string/textmoods"
+        android:layout_alignRight="@+id/textemails"
+        android:layout_alignEnd="@+id/textemails" />
+
+    <TextView
+        android:id="@+id/valuename"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textnames"
+        android:layout_marginLeft="19dp"
+        android:layout_marginStart="19dp"
+        android:layout_toRightOf="@+id/textnames"
+        android:text="@string/valuename" />
+
+    <TextView
+        android:id="@+id/valueemail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/valuename"
+        android:layout_alignLeft="@+id/valuename"
+        android:layout_alignRight="@+id/valuename"
+        android:layout_alignStart="@+id/valuename"
+        android:layout_alignTop="@+id/textemails"
+        android:text="@string/valueemail" />
+
+    <TextView
+        android:id="@+id/valuelang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textacnts"
+        android:layout_alignEnd="@+id/valueemail"
+        android:layout_alignLeft="@+id/valueemail"
+        android:layout_alignRight="@+id/valueemail"
+        android:layout_alignStart="@+id/valueemail"
+        android:text="@string/valuelang" />
+
+    <TextView
+        android:id="@+id/valueaccount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView7"
+        android:layout_alignEnd="@+id/valuelang"
+        android:layout_alignLeft="@+id/valuelang"
+        android:layout_alignRight="@+id/valuelang"
+        android:layout_alignStart="@+id/valuelang"
+        android:text="@string/valueaccount" />
+
+    <TextView
+        android:id="@+id/valuemood"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/textView7"
+        android:layout_alignEnd="@+id/valueaccount"
+        android:layout_alignLeft="@+id/valueaccount"
+        android:layout_alignRight="@+id/valueaccount"
+        android:layout_alignStart="@+id/valueaccount"
+        android:text="@string/valuemood" />
+
+    <ImageView
+        android:id="@+id/moodedit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/edit"
+        android:layout_marginLeft="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_alignBottom="@+id/valuemood"
+        android:layout_toRightOf="@+id/valuemood"
+        android:layout_toEndOf="@+id/valuemood" />
+</RelativeLayout>
